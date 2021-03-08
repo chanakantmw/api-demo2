@@ -10,7 +10,7 @@ var nuboxAPI = require('./routes/api');
 var nuboxClear = require('./routes/clear');
 var nuboxInsert = require('./routes/insert');
 
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 var app = express();
 
 // view engine setup
